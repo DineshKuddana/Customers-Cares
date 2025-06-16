@@ -928,6 +928,31 @@ body {
 
 
 
+
+
+
+
+
+
+
+    
+    .fixed-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 18px;
+      z-index: 1000;
+    }
+
+    .fixed-footer a{
+        color: white;
+    }
+
+
     .ripple-call-btn {
   position: fixed;
   top: 50%;
